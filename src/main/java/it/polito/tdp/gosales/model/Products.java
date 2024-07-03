@@ -147,6 +147,7 @@ public class Products {
 	}
 	
 	
+	
 	/**
 	 * @param unit_price the unit_price to set
 	 */
@@ -177,6 +178,16 @@ public class Products {
 	@Override
 	public String toString() {
 		return "Prodotto " + number + ": " + product;
+	}
+
+
+	public double getUnit_cost() {
+		return unit_cost;
+	}
+
+
+	public double getUnit_price() {
+		return unit_price;
 	}
 	
 
